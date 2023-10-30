@@ -1,0 +1,163 @@
+.titulo-principal {
+    font-family: var(--fonte-principal);
+    background: var(--cor-principal);
+    color: white;
+    text-align: center;
+}
+
+.historia_dos_avioes {
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+.texto_historia {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.os-avioes-mais-legais {
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 22px;
+}
+.titulo-principal2 {
+    font-size: 32px;
+    font-family: var(--fonte-principal);
+    background-image:  linear-gradient(45deg, rgba(6,0,36,1) 37%, rgba(9,102,121,1) 55%); 
+    color: white;
+    text-align: center;
+}
+
+/* osavioesmaisbelosdahistoria */
+.titulo-nome-avioes {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    padding: 0.7em;
+    background-image: linear-gradient(45deg, rgba(6,0,36,1) 37%, rgba(9,102,121,1) 55%);
+    color: white;
+}
+
+.texto-avioes {
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0.6em;
+}
+
+.ultimo-texto {
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.texto-avioes-intro{
+    background-color: darkgray;
+    color: white;
+    font-size: 20px;
+    font-family: var(--fonte-principal);
+    padding: 0.6em;
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+}
+
+.rodape {
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.GitHub {
+    color:blue;
+    display: flex;
+}
+
+@media screen and (min-width: 1024px){
+    
+.titulo-principal {
+    font-size: 23px;
+}
+
+.titulo-texto {
+    font-size: 35px
+}
+
+.texto_historia, .texto-avioeslegais, .ultimo-texto {
+    font-size: 33px;
+}
+
+.categorias-avioes {
+    font-size: 33px;
+}
+ .rodape {
+    font-size: 32px;
+ }
+ .GitHub {
+    color:red;
+    display: flex;
+}
+/* Os aviões mais belos*/
+.titulo-principal2 {
+    font-size: 46px;
+    font-family: var(--fonte-principal);
+    background-image:  linear-gradient(45deg, rgba(6,0,36,1) 37%, rgba(9,102,121,1) 55%); 
+    color: white;
+    text-align: center;
+}
+
+.titulo-nome-avioes {
+    font-size: 35px;
+    font-weight: 600;
+    
+}
+
+.texto-avioes {
+    font-size: 33px;
+}
+.texto-avioes-intro{
+    background-color: darkgray;
+    color: white;
+    font-size: 33px;
+    font-family: var(--fonte-principal);
+}
+}
+
+@media screen and (min-width: 1720px){
+
+    .titulo-principal {
+        font-size: 30px;
+    }
+
+    .titulo-texto {
+        font-size: 50px;
+    }
+
+    .texto_historia, .texto-avioeslegais, .ultimo-texto, .categorias-avioes {
+        font-size: 48px;
+    }
+    
+    .rodape {
+        font-size: 47px;
+    }
+
+    /* os aviões mais belos */
+
+    .titulo-principal2 {
+        font-size: 60px;
+    }
+
+    .titulo-nome-avioes {
+        font-size: 50px;
+    }
+
+    .texto-avioes {
+        font-size: 48px;
+    }
+
+    .texto-avioes-intro {
+        font-size: 48px;
+    }
+}

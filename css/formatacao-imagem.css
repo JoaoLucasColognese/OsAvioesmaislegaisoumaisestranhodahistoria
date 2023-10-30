@@ -1,0 +1,27 @@
+.aviao-mais-belo {
+    width: 100%;
+    height: 100%;
+    padding: 0.5em 0;
+}
+.meu-github {
+    width: 5.86%;    /* 5.86 = 60px */
+    height: 5.86%;
+    padding: 0; 
+}
+
+@media screen and (min-width: 1024px){
+    
+.meu-github {
+    width: 18%;
+    height: 18%;
+    padding: 0;
+} 
+}
+
+@media screen and (min-width: 1720px) {
+    
+.aviao-mais-belo {
+    width: 90%;
+    padding-left: 5.5em;
+}
+}
