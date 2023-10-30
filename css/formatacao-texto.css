@@ -75,6 +75,9 @@ a {
     display: flex;
 }
 
+.os-avioes-mais-legais {
+    padding: 0.6em;
+}
 @media screen and (min-width: 1024px){
     
 .titulo-principal {
