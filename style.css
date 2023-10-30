@@ -1,0 +1,16 @@
+@import url(css/formatacao-texto.css);
+@import url(css/formatacao-imagem.css);
+/* @import url(css/avioesmaisbelos.css); */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --cor-principal: linear-gradient(45deg, #121212, #223355);
+    --fonte-principal: "Poppins";
+}
+
+/* body {
+    
+} */
